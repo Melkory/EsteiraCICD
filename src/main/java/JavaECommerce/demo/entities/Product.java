@@ -26,8 +26,6 @@ public class Product {
 
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant date;
-    
-    private String teste;
 
     public Product() {
     }
